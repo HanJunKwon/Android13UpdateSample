@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnNotificationPermission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="알림 권한 요청" />
+
+        <Button
+            android:id="@+id/btnSpeechService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="음성음식 시작하기"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="138dp" />
+
+        <Button
+            android:id="@+id/btnImagePermission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="이미지 및 사진 권한 요청" />
+
+        <Button
+            android:id="@+id/btnRecordPermission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="동영상 권한 요청" />
+
+        <Button
+            android:id="@+id/btnAudioPermission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="오디오 파일 권한 요청" />
+
+        <Button
+            android:id="@+id/btnReadStoragePermission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="미디어 권한 동시에 요청" />
+
+        <Button
+            android:id="@+id/btnRemovePermission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="런타임 권한 삭제" />
+
+        <Button
+            android:id="@+id/btnOpenImageSelectorSingleMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="사진 선택 도구 열기(단인 선택 모드)" />
+
+        <Button
+            android:id="@+id/btnOpenImageSelectorMultipleMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="사진 선택 도구 열기(3개)" />
+
+        <Button
+            android:id="@+id/btnSetLocalesEn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="언어 설정(영문)" />
+
+        <Button
+            android:id="@+id/btnSetLocalesKo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="언어 설정(국문)" />
+
+        <Button
+            android:id="@+id/btnAddQuickTile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="퀵 설정 추가" />
+
+        <Button
+            android:id="@+id/btnSendBroadcast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="브로드캐스트 전송" />
+
+    </LinearLayout>
+
+</ScrollView>
